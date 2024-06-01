@@ -1,2 +1,61 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
+.holder2 {
+            display: flex;
+            flex-wrap: wrap; /* Allow items to wrap onto new lines */
+            justify-content: center; /* Center items horizontally */
+            align-items: center; /* Center items vertically */
+            height: 300px; /* Set a height for the container */
+            background-color: #f0f0f0; /* Container background color */
+        }
+
+        /* Apply styles to individual items */
+        .item2 {
+            width: 100px; /* Adjust width as needed */
+            height: 100px; /* Adjust height as needed */
+            background-color: #bada55; /* Set your desired background color */
+            margin: 10px; /* Add spacing between items */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            font-size: 16px;
+        }
+        /* Apply styles to the flex container (holder) */
+        .holder {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap; /* Allow items to wrap onto the next line */
+        }
+
+        /* Apply styles to individual items */
+        .item {
+            width: 100px; /* Adjust width as needed */
+            height: 100px; /* Adjust height as needed */
+            background-color: #f0f0f0; /* Set your desired background color */
+            border: 1px solid #333; /* Add a border for visual separation */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        /* Example styling for specific items (you can customize further) */
+        .item:nth-child(1) {
+            background-color: #bada55;
+        }
+
+        .item:nth-child(2) {
+            background-color: #ff6347;
+        }
+
+        .item:nth-child(3) {
+            background-color: #6495ed;
+        }
 /* Your CSS Code here. */
